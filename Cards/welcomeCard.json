@@ -1,0 +1,46 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.static-collegedunia.com%2Fpublic%2Fcollege_data%2Fimages%2Flogos%2F1394447244Dr.%2520D.Y.%2520Patil%2520Vidyapeeth.png&imgrefurl=https%3A%2F%2Fcollegedunia.com%2Funiversity%2F25698-dr-dy-patil-vidyapeeth-dpu-pune&tbnid=DwVfTls4KwsheM&vet=12ahUKEwjAyrXrvePuAhX7kksFHUGOC9AQMygAegUIARCoAQ..i&docid=VtAGPgYRVL0DQM&w=230&h=230&q=dpu%20logo&ved=2ahUKEwjAyrXrvePuAhX7kksFHUGOC9AQMygAegUIARCoAQ",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to DPU Bot Framework!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Hi,Myself DPU.I am created by sdc.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Get an overview",
+      "url": "https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Payment",
+      "url": "https://stackoverflow.com/questions/tagged/botframework"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Learn how to deploy",
+      "url": "https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-deploy-azure?view=azure-bot-service-4.0"
+    }
+  ]
+}
